@@ -1,0 +1,167 @@
+/* style untuk selector - body */
+body {
+    background-color: rgb(159, 209, 238);
+    margin: 0px; 
+}
+/* style untuk heading - BEGIN */
+
+h1 {
+    color: rgb(5, 10, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+}
+h2 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3 {
+    color: rgb(10, 10, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+p {
+    margin: 10px 30px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+/* style untuk Heading -END */
+
+/* Style untuk Link - BEGIN */
+a:link{
+    color: blueviolet
+}
+a:hover {
+    color: aqua
+}
+a:visited {
+    color: black
+}
+/* style untuk link - END */
+
+/* style berbentuk class - BEGIN */
+.header1 {
+    color: darkcyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+.header2 {
+    color: rgb(9, 8, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: initial;
+    text-decoration: none;
+}
+.container {
+    background-color: #74aa1f;
+    margin: 10px auto;
+    width: 90%;
+}
+.logo {
+   text-align: center;
+   background-color: white;
+}
+.jumbotron {
+    background-image: url('../images/perusahaan.jpg');
+    background-size: cover;
+    /*background-color: #c4fa2f; */
+    border: solid 1px #74aa1f;
+    border-radius: 8px;
+    height: 300px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+    color: rgb(13, 13, 17)
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 18px;
+    color: rgb(24, 28, 233)
+
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 59, 228);
+    background-color: rgb(235, 252, 255);
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgba(241, 241, 239, 0.938);
+   
+}
+/* Style berbentuk class - END */
+
+/* Menu Header - BEGIN */
+.menu-header {
+    background-color: rgb(188, 184, 189);
+    border-radius: 40px;
+    box-shadow: 
+        0 3px 5px -1px rgb(0, 0, 0.2),
+        0 6px 10px 0 rgb(0, 0, 0.14),     
+        0 1px 18px 0 rgb(0, 0, 0.12);
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: crimson
+}
+/* Menu Header - END*/
+
+  /* Card Home - BEGIN */
+.cardhome {
+    display: inline-block;
+    background-color: rgb(140, 139, 197);
+    width:  30%;
+    height: 250px;
+    border-radius: 0px 0px  20px 20px;
+}
+.cardhead {
+    border-bottom: solid 1px rgb(32, 17, 243);
+    padding: 10px 0px;
+}
+.cardhead h3 {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+}
+/* Card Homr - END */
+/* News begin */
+
+.news-item h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.news-item h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+  
+
+
